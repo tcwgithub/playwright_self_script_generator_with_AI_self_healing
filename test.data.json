@@ -1,0 +1,15 @@
+{
+  "first_name": "James",
+  "last_name": "Anderson",
+  "dob": "2000-01-01",
+  "street": "123 Main St",
+  "postal_code": "12345",
+  "city": "Colombo",
+  "state": "CA",
+  "phone": "5551234567",
+  "email": "james6.and@example.com",
+  "country": "Albania",
+  "password": "Anker@5723",
+  "adusername": "admin@practicesoftwaretesting.com",
+  "adpassword": "welcome01"
+}

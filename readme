@@ -1,0 +1,2 @@
+Use - 'npx tsx script_generator.ts' to generate the Script
+    - 'npx playwright test automated_script.spec.ts' to run the script

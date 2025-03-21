@@ -1,0 +1,12 @@
+{
+  "imports": "import { chromium, Page } from 'playwright';\nimport { test, expect } from '@playwright/test';\nimport { clickWithAIRecovery, fillWithAIRecovery } from '../ai-recovery';",
+  "testHeader": "test('generated test', async ({ page }) => {",
+  "browserLaunch": "  const browser = await chromium.launch();\n  try {",
+  "gotoUrl": "    await page.goto('{{url}}');",
+  "interactionsStart": "    // Generated Automation Tests:",
+  "fillInput": "    await fillWithAIRecovery(page, '{{selector}}', '{{value}}');",
+  "selectOption": "    await fillWithAIRecovery(page, '{{selector}}', '{{value}}');",
+  "submitButton": "    await clickWithAIRecovery(page, 'button:has-text(\"Login\"), button:has-text(\"Submit\"), button:has-text(\"Register\")');",
+  "catchBlock": "  } catch (error) {\n    console.error('Test failed:', error);\n    throw error;\n  } finally {\n    await browser.close();\n  }",
+  "testFooter": "});"
+}
